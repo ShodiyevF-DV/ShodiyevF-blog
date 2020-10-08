@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
+        url('../fonts/Rubik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*TAYYOR SHABLONLAR*/
+
+.btn{
+  width: auto;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 2px solid #3578B1;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*TUGADI*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  font-family: "Roboto" , sans-serif;
+  background-image: url("img/sunset.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1259px;
+  /*height: 100px;*/
+  /*padding-left: 200px;*/
+  /*padding-right: 200px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+.obuna-btn{
+  color: #3578B1;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 98.5%;
+  border: 2px solid #3578B1;
+  transition: background-color 0.5s ease;
+}
+.obuna-btn:hover{
+  color: white;
+  background-color: #3578B1;
+  font-weight: bold;
+  transition: background-color 0.5s ease;
+}
+.contain-main{
+  position: relative;
+  margin-left: 40%;
+}
+.logo{
+  margin-top: 50px;
+  width: 350px;
+  margin-bottom: -60px;
+}
+.btn-img{
+  margin-top: -70px;
+  position: absolute;
+}
+.btn-img1{
+  width: auto;
+  color: #3578B1;
+  transition: background-color 0.5s ease;
+}
+.btn-img1:hover{
+  color: white;
+  background-color: #3578B1;
+  transition: background-color 0.5s ease;
+}
+.btn-img2{
+  margin-left: 170px;
+}
+
+footer{
+  margin-top: 160px;
+}
+.coin-icon1{
+  margin-left: 100px;
+  /*background-color: red;*/
+}
+.coin-icon{
+  color: white;
+  margin-left: 5px;
+  font-size: 40px;
+  transform: rotate(-15deg);
+}
