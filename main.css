@@ -131,6 +131,7 @@ footer{
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .coin-icon1{
   margin-left: 100px;
