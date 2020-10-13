@@ -65,12 +65,16 @@ img {
 	text-align: center;
 }
 
+.img-fayzu{
+	/*background-color: red;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .img{
 	width: 500px;
 	height: auto;
 	margin-right: 30px;
-}
-
-.selfi{
-	margin:	0;
 }
