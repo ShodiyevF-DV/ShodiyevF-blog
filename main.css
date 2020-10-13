@@ -53,7 +53,7 @@ body {
   line-height: 1.5;
   background-color: #fff;
   font-family: "Roboto" , sans-serif;
-  background-image: url("img/sunset.jpg");
+  background-image: url("img/sunset1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -127,7 +127,8 @@ img {
 }
 
 footer{
-  margin-top: 160px;
+  margin-top: 100px;
+  margin-left: auto;
 }
 .coin-icon1{
   margin-left: 100px;
@@ -138,4 +139,21 @@ footer{
   margin-left: 5px;
   font-size: 40px;
   transform: rotate(-15deg);
+}
+
+.btn-pages{
+  width: auto;
+}
+
+.btn-projects{
+  width: auto;
+  color: white;
+  /*background-color: ;*/
+  margin-left: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.btn-projects:hover{
+  background-color:  #3578B1;
+  transition: background-color 0.5s ease;
 }
