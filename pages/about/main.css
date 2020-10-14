@@ -34,6 +34,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
+  background-image: url("img/Lemon Twist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #222;
 }
 
@@ -65,16 +68,23 @@ img {
 	text-align: center;
 }
 
-.img-fayzu{
-	/*background-color: red;*/
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.img{
+	width: 300px;
+	height: auto;
+	border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left: 10px;
 }
 
-.img{
-	width: 500px;
-	height: auto;
-	margin-right: 30px;
+.img-p-wrapper{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
+
+.p-malumot{
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
