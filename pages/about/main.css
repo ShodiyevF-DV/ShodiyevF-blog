@@ -77,8 +77,12 @@ img {
 }
 
 .img-p-wrapper{
+  position: relative;
+  background-color: red;
   display: flex;
   align-items: center;
+  box-shadow: #33D35E 0px 2px 4px 0px, #2AB6D9 0px 2px 16px 0px;
+  /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
   border-radius: 10px;
   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
 }
@@ -86,5 +90,16 @@ img {
 .p-malumot{
   margin-left: 10px;
   margin-right: 10px;
-
 }
+
+/*.mask:hover + .p-malumot{
+  display: none;
+}
+
+.mask:hover{
+  left: 300px;
+  width: 400px;
+  margin-left: 200px;
+  height: 400px;
+  transition: all 0.5s ease;
+}*/

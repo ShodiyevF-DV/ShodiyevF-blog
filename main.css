@@ -50,6 +50,10 @@ body {
   padding: 0;
   color: #222;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   line-height: 1.5;
   background-color: #fff;
   font-family: "Roboto" , sans-serif;
@@ -57,7 +61,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 img {
@@ -77,66 +80,77 @@ img {
 }
 
 .container {
-  width: 1259px;
-  /*height: 100px;*/
-  /*padding-left: 200px;*/
-  /*padding-right: 200px;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
+  width: 1350px;
+  /*background-color: */
 }
+
+.test{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .obuna-btn{
+  display: block;
   color: #3578B1;
   padding: 10px;
   margin-top: 10px;
-  font-weight: bold;
-  margin-left: 98.5%;
+  font-weight: bold
+  margin-left: auto;
+  /*margin-right: 10px;*/
   border: 2px solid #3578B1;
   transition: background-color 0.5s ease;
 }
+
 .obuna-btn:hover{
   color: white;
   background-color: #3578B1;
   font-weight: bold;
   transition: background-color 0.5s ease;
 }
+
 .contain-main{
   position: relative;
-  margin-left: 40%;
+  margin-top: 60px;
+  margin-left: 35%;
 }
+
 .logo{
-  margin-top: 50px;
   width: 350px;
-  margin-bottom: -60px;
 }
+
 .btn-img{
-  margin-top: -70px;
+  margin-top: -16%;
   position: absolute;
 }
+
 .btn-img1{
   width: auto;
   color: #3578B1;
   transition: background-color 0.5s ease;
 }
+
 .btn-img1:hover{
   color: white;
   background-color: #3578B1;
   transition: background-color 0.5s ease;
 }
+
 .btn-img2{
   margin-left: 170px;
 }
 
 footer{
-  margin-top: 165px;
+  margin-top: 6%;
   margin-left: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.coin-icon1{
-  margin-left: 100px;
-  /*background-color: red;*/
+
+.coin-icon2{
+  margin-right: 990px;
 }
+
 .coin-icon{
   color: white;
   margin-left: 5px;
@@ -146,13 +160,11 @@ footer{
 
 .btn-pages{
   height: 50px;
-  /*background-color: red;*/
 }
 
 .btn-projects{
   width: auto;
   color: white;
-  /*background-color: red;*/
   margin-right: 10px;
   transition: background-color 0.5s ease;
 }
@@ -160,4 +172,12 @@ footer{
 .btn-projects:hover{
   background-color:  #3578B1;
   transition: background-color 0.5s ease;
+}
+
+.testt{
+  /*display: block;*/
+  background-color: r/*ed;
+  display: flex;
+  flex-direction: col*/umn;
+  /*justify-content: flex-end;*/
 }
