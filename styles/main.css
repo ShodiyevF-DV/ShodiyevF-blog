@@ -1,0 +1,184 @@
+@font-face {
+	font-family: "Futura PT";
+	src: url("../fonts/subset-FuturaPT-Book.woff2") format("woff2"),
+	url("../fonts/subset-FuturaPT-Book.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/subset-FuturaPT-Bold.woff2") format("woff2"),
+	url("../fonts/subset-FuturaPT-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+/*TAYYOR SHABLONLAR*/
+
+.btn{
+	display: inline-block;
+	width: auto;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: white;
+	transition: all 1s ease;
+
+}
+
+.btn:hover{
+	color: black;
+	font-weight: bold;
+	background: #00b09b;
+	background: -webkit-linear-gradient(to left, #96c93d, #00b09b);
+	background: linear-gradient(to left, #96c93d, #00b09b);
+	transition: all 1s ease;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*TUGADI*/
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.5;
+	font-family: "Futura PT" , "Arial" , sans-serif;
+	background-image: url("../img/applebg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;	
+	
+}
+
+/*BACKGROUNDNI HIRALASH TIRADIGAN*/
+
+/*body:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100vh;  
+	opacity: .4; 
+	z-index: -1;
+}*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/*HEADER BOSHLANDI*/
+
+.site-header{
+	/*background-color: red;*/
+	margin-left: calc(50% + 570px);
+}
+
+.site-header__link{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+/*HEADER TUGADI*/
+
+/*MAIN BOSHLANDI*/
+
+.site-main{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.site-main__link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.site-main__link-img{
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	width: 450px;
+	vertical-align: baseline;
+}
+
+.site-main__btn-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*MAIN TUGADI*/
+
+/*FOOTER BOSHLANDI*/
+
+.site-footer{
+	display: flex;
+	align-items: center;
+}
+
+.site-footer__icons-list{
+	display: flex;
+	margin-left: calc(50% - 700px);
+	list-style-type: none;
+}
+
+.site-footer__icons-item{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.site-footer__icons-link{
+	color: white;
+}
+
+.coin-icon{
+	padding: auto;
+	font-size: 40px;
+	border-radius: 50%;
+	background-color: black;
+	transform: rotate(-15deg);
+}
+
+.site-footer__btn{
+	white-space: nowrap;
+	margin-left: calc(50% + 800px);
+}
+
+/*FOOTER TUGADI*/

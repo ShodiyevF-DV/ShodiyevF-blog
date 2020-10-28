@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ShodiyevF</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -15,40 +15,61 @@
 	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="test">
-				<a class="obuna-btn btn" href="pages/registration/index.html">Registration</a>
-			</div>
-		</div>
+
+	<header class="site-header">
+
+		<a class="btn site-header__link" href="pages/registration/index.html">Registration</a>
+
 	</header>
-	<main>
-		<div class="container main-container">
-			<div class="contain-main">
-				<img class="logo" src="img/ShodiyevF_logo.png">
-				<div class="btn-img">
-					<a class="btn btn-img1" href="pages/about/index.html">About</a>
-					<a class="btn btn-img1 btn-img2" href="pages/contactus/index.html">Contact Us</a>
-				</div>
-			</div>
+
+	<main class="site-main">
+		
+		<a class="site-main__link" href="index.html">
+			<img class="site-main__link-img" src="img/logo.png">
+		</a>
+
+		<div class="site-main__btn-wrapper">
+
+			<a class="site-main__btn btn" href="pages/about/index.html">About</a>
+			<a class="site-main__btn btn" href="pages/contactus/index.html">Contact Us</a>
+
 		</div>
+
 	</main>
 
-	<footer>
+	<footer class="site-footer">
 
-		<div class="testt">
-			<div class="icon-foot">
-				<i class="fab fa-bitcoin coin-icon coin-icon1"></i>
-				<i class="fab fa-bitcoin coin-icon"></i>
-				<i class="fab fa-bitcoin coin-icon"></i>
-				<i class="fab fa-bitcoin coin-icon"></i>
-				<i class="fab fa-bitcoin coin-icon coin-icon2"></i>
-			</div>
-		</div>
+		<ul class="site-footer__icons-list">
 
-		<div class="btn-pages">
-			<a class="btn btn-projects" href="pages/projects/index.html">My Projects</a>
-		</div>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon coin-icon1"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon coin-icon2"></i>
+				</a>
+			</li>
+
+		</ul>
+
+		<a class="site-footer__btn btn" href="pages/projects/index.html">My Projects</a>
 
 	</footer>
 	<script src="https://kit.fontawesome.com/d62e2ecb8d.js" crossorigin="anonymous"></script>
