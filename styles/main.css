@@ -197,12 +197,12 @@ img {
 @media only screen and (min-width: 1920px){
 
 	.site-header {
-		margin-left: auto /*calc(50% + 860px)*/;
+		margin-left: calc(50% + 610px);
 	}
 
 	.site-footer__btn {
 		white-space: nowrap;
-		margin-left: calc(50% + 1130px);
+		margin-left: calc(50% + 1365px);
 	}
 
 	.site-footer__icons-list {
