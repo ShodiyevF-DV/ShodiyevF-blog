@@ -87,6 +87,7 @@ body{
 	z-index: -1;
 }*/
 
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -107,7 +108,7 @@ img {
 
 .site-header{
 	/*background-color: red;*/
-	margin-left: calc(50% + 570px);
+	margin-left: calc(50% + 585px);
 }
 
 .site-header__link{
@@ -182,3 +183,23 @@ img {
 }
 
 /*FOOTER TUGADI*/
+
+@media only screen and (min-width: 1440px){
+
+	.site-footer__icons-list {
+		display: flex;
+		margin-left: calc(50% - 750px);
+		list-style-type: none;
+	}
+
+	.site-footer__btn {
+    	white-space: nowrap;
+    	margin-left: calc(50% + 880px);
+	}
+
+	.site-header {
+    	/* background-color: red; */
+    	margin-left: calc(50% + 620px);
+	}
+
+}
