@@ -174,6 +174,41 @@ img {
 
 /*FOOTER TUGADI*/
 
+@media only screen and (max-width: 1024px){
+
+	.site-body{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+	}
+
+	.site-main{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.site-header {
+		/* background-color: red; */
+		margin-left: calc(50% + 730px);
+	}
+
+	.site-footer__icons-list {
+		display: flex;
+		margin-left: calc(50% - 550px);
+		list-style-type: none;
+	}
+
+	.site-footer__btn {
+		white-space: nowrap;
+		margin-left: calc(50% + 885px);
+	}
+
+}
+
 @media only screen and (min-width: 1440px){
 
 	.site-footer__icons-list {
@@ -184,7 +219,7 @@ img {
 
 	.site-footer__btn {
 		white-space: nowrap;
-		margin-left: calc(50% + 880px);
+		margin-left: calc(50% + 885px);
 	}
 
 	.site-header {
@@ -208,6 +243,25 @@ img {
 	.site-footer__icons-list {
 		display: flex;
 		margin-left: calc(50% - 990px);
+		list-style-type: none;
+	}
+
+}
+
+@media only screen and (min-width: 2560px){
+
+	.site-header {
+		margin-left: calc(50% + 1175px);
+	}
+
+	.site-footer__btn {
+		white-space: nowrap;
+		margin-left: calc(50% + 2005px);
+	}
+
+	.site-footer__icons-list {
+		display: flex;
+		margin-left: calc(50% - 1310px);
 		list-style-type: none;
 	}
 
