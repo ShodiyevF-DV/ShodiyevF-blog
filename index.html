@@ -20,20 +20,25 @@
 	<header class="site-header">
 
 		<a class="btn site-header__link" href="pages/registration/index.html">Registration</a>
+		<!-- <button class="site-header__modal-open-btn site-header__modal-close-btn"></button> -->	
 
 	</header>
 
 	<main class="site-main">
 		
-		<a class="site-main__link" href="index.html">
-			<img class="site-main__link-img" src="img/logo.png" alt="logo">
-		</a>
+		<div class="container">
+			
+			<a class="site-main__link" href="index.html">
+				<img class="site-main__link-img" src="img/logo.png" alt="logo">
+			</a>
+			
 
-		<div class="site-main__btn-wrapper">
+			<div class="site-main__btn-wrapper">
 
-			<a class="site-main__btn btn" href="pages/about/index.html">About</a>
-			<a class="site-main__btn btn" href="pages/contactus/index.html">Contact Us</a>
+				<a class="site-main__btn btn" href="pages/about/index.html">About</a>
+				<a class="site-main__btn btn" href="pages/contactus/index.html">Contact Us</a>
 
+			</div>
 		</div>
 
 	</main>
@@ -74,13 +79,41 @@
 
 	</footer>
 
-	<script>
-		var modalopenbtn = document.querySelector('.modal-open-btn');
-		var modalclosebtn = document.querySelector('.modal-close-btn');
+	<!-- <section class="modal">
+		<div class="modal__wrapper">
+			<div class="modal__content-wrapper">
 
-		.modalopenbtn.addEventListener('click', function(){
-			
+				<button class="modal__close" type="button"></button>
+
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima hic molestias tempore voluptatibus ea deserunt
+				repudiandae minus nostrum laborum voluptates id, quae iste? Quod molestias molestiae voluptates ipsa dolore deleniti.</p>
+
+			</div>
+		</div>
+	</section> -->
+
+	<script class="modal">
+		var modalopenbtn = document.querySelector('.site-header__modal-open-btn');
+		var modalclosebtn = document.querySelector('.site-header__modal-close-btn');
+		var elModal = document.querySelector('.modal');
+
+		modalopenbtn.addEventListener('click', function (){
+			elModal.classList.toggle('.site-header__modal-open-btn');
 		});
+
+
+		var elModalToggler = document.querySelector('.modal-toggler');
+		var elModal = document.querySelector('.modal');
+		var elModalClose = document.querySelector('.modal__close');
+
+		elModalToggler.addEventListener('click', function (){
+			elModal.classList.add('modal--open');
+		});
+
+		elModalClose.addEventListener('click', function () {
+			elModal.classList.remove('modal--open');
+		});
+
 
 	</script>
 
