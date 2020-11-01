@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Rubik';
-    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
-        url('../fonts/Rubik-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+  url('../fonts/Rubik-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubik';
-    src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
-        url('../fonts/Rubik-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
+  url('../fonts/Rubik-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 html {
@@ -92,14 +92,21 @@ img {
   margin-right: 10px;
 }
 
-/*.mask:hover + .p-malumot{
-  display: none;
-}
+@media only screen and (max-width: 720px){
 
-.mask:hover{
-  left: 300px;
-  width: 400px;
-  margin-left: 200px;
-  height: 400px;
-  transition: all 0.5s ease;
-}*/
+  body{
+    font-size: 10px;
+  }
+
+  .img-p-wrapper{
+    position: relative;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #33D35E 0px 2px 4px 0px, #2AB6D9 0px 2px 16px 0px;
+    /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+    border-radius: 10px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
+}
