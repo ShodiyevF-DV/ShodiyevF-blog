@@ -20,7 +20,6 @@
 	<header class="site-header">
 
 		<a class="btn site-header__link" href="pages/registration/index.html">Registration</a>
-		<!-- <button class="site-header__modal-open-btn site-header__modal-close-btn"></button> -->	
 
 	</header>
 
@@ -31,7 +30,7 @@
 			<a class="site-main__link" href="index.html">
 				<img class="site-main__link-img" src="img/logo.png" alt="logo">
 			</a>
-			
+
 
 			<div class="site-main__btn-wrapper">
 
@@ -39,6 +38,8 @@
 				<a class="site-main__btn btn" href="pages/contactus/index.html">Contact Us</a>
 
 			</div>
+
+			<button class="modal-toggler" type="button">Ochish</button>	
 		</div>
 
 	</main>
@@ -75,44 +76,84 @@
 
 		</ul>
 
-		<a class="site-footer__btn btn" href="pages/projects/index.html">My Projects</a>
+		<a class="site-footer__btn site-footer__btn--none btn" href="pages/projects/index.html">My Projects</a>
 
 	</footer>
 
-	<!-- <section class="modal">
+	<section class="modal">
 		<div class="modal__wrapper">
 			<div class="modal__content-wrapper">
 
-				<button class="modal__close" type="button"></button>
+				<button class="modal-close-btn modal-btn" type="button">yopish</button>
 
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima hic molestias tempore voluptatibus ea deserunt
-				repudiandae minus nostrum laborum voluptates id, quae iste? Quod molestias molestiae voluptates ipsa dolore deleniti.</p>
+				<div class="modal-btns">
+
+					<a class="btn site-header__link site-header__link--margin modal-btn" href="pages/registration/index.html">Registration</a>
+					
+					<a class="site-footer__btn--block modal-btn btn" href="pages/projects/index.html">My Projects</a>
+
+				</div>
+				
+				<ul class="site-footer__icons-list site-footer__icons-list--list">
+
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon coin-icon1"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon coin-icon2"></i>
+						</a>
+					</li>
+
+				</ul>
+
 
 			</div>
 		</div>
-	</section> -->
+	</section>
 
-	<script class="modal">
-		var modalopenbtn = document.querySelector('.site-header__modal-open-btn');
-		var modalclosebtn = document.querySelector('.site-header__modal-close-btn');
+	<script>
+		var modalToggler = document.querySelector('.modal-toggler');
+		var modalclosebtn = document.querySelector('.modal-close-btn');
 		var elModal = document.querySelector('.modal');
 
-		modalopenbtn.addEventListener('click', function (){
-			elModal.classList.toggle('.site-header__modal-open-btn');
-		});
-
-
-		var elModalToggler = document.querySelector('.modal-toggler');
-		var elModal = document.querySelector('.modal');
-		var elModalClose = document.querySelector('.modal__close');
-
-		elModalToggler.addEventListener('click', function (){
+		modalToggler.addEventListener('click', function (){
 			elModal.classList.add('modal--open');
 		});
 
-		elModalClose.addEventListener('click', function () {
+		modalclosebtn.addEventListener('click', function (){
 			elModal.classList.remove('modal--open');
 		});
+
+
+		// var elModalToggler = document.querySelector('.modal-toggler');
+		// var elModal = document.querySelector('.modal');
+		// var elModalClose = document.querySelector('.modal__close');
+
+		// elModalToggler.addEventListener('click', function (){
+		// 	elModal.classList.add('modal--open');
+		// });
+
+		// elModalClose.addEventListener('click', function () {
+		// 	elModal.classList.remove('modal--open');
+		// });
 
 
 	</script>
